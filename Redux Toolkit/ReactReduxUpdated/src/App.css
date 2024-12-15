@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  background: #000a12;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.odometer {
+  font-size: calc(2rem + 5vw);
+}
+
+.title {
+  letter-spacing: 1.5px;
+  line-height: 1.25;
+}
+
+.plus{
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: moccasin;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.minus{
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: moccasin;
+    font-size: 14px;
+    margin-right: 10px;
+}
